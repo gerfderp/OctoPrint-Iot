@@ -1,0 +1,24 @@
+<form class="form-horizontal">
+    <div class="control-group">
+        <label class="control-label">{{ _('IoT Host') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.iot.iot_host">
+        </div>
+        <label class="control-label">{{ _('IoT Root CA Path') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.iot.iot_rootCAPath">
+        </div>
+        <label class="control-label">{{ _('IoT Certificate Path') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.iot.iot_certificatePath">
+        </div>
+        <label class="control-label">{{ _('IoT Private Key Path') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.iot.iot_privateKeyPath">
+        </div>
+    </div>
+</form>
+{#iot_host="a1wjytbxze00ry-ats.iot.us-east-2.amazonaws.com",#}
+{#			iot_rootCAPath="/Users/tneier/awspi/AmazonRootCA1.pem",#}
+{#			iot_certificatePath="/Users/tneier/awspi/cec0dfd6f8-certificate.pem.crt",#}
+{#			iot_privateKeyPath="/Users/tneier/awspi/cec0dfd6f8-private.pem.key"#}
